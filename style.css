@@ -1,0 +1,156 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/* Navbaar */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #b5179e;
+    /*border-radius: 30px;*/
+    /* justify-content: space-between; */
+}
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin-right: auto;
+    margin-left: 20px;
+    color: aliceblue;
+    
+
+}
+.logo:hover {
+    padding: 5px;
+    border: 5px solid black;
+}
+
+.nav_link {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.nav_link a {
+    text-decoration: none;
+    padding: 10px;
+    color: aliceblue;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+
+.nav_link :hover {
+    color: black;
+}
+
+/* Intro Section*/
+.intro {
+    background-color: #06d6a0;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    height: 150px;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+/* COC */
+.coc {
+    background-color: #073b4c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.cocimg {
+    height: 250px;
+    width: 500px;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.coc h1 {
+    color: white;
+}
+
+.coc_intro {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+
+}
+
+/* download_link */
+.download_link {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.download_link a {
+    text-decoration: none;
+    color: white;
+
+}
+.down {
+    display: flex;
+    text-align: center;
+    background-color: grey;
+    height: 30px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.opinion {
+    background-color: #ced4da;
+}
+
+/* footer */
+footer  {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: #6c757d;
+    padding: 50px;
+}
+
+.thanking {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.never_div {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.never {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: red;
+    border-radius: 10px;
+    
+}
